@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles-home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Cambie la fuente (lo consulte con Sarai) -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <nav>
+        <div id="menu"> 
+            <ul class="navegador">
+                <li class="outfit"> 
+                    <a href="home.html">HOME</a>
+                </li>
+                <li class="outfit">
+                    <a href="#">CATEGORIAS</a>
+                    <ul>
+                        <li class="outfit"><a href="/iphone.html">Iphone</a></li> 
+
+                        <li class="outfit"><a href="/samsung.html">Samsung</a></li>
+                    </ul>
+                </li>
+                <li class="outfit">
+                    <a href="index.html">LOGIN</a>
+                </li><br><br>
+                <li class="outfit">
+                    <a href="#">FAVORITOS</a>
+                </li>
+                <li class="outfit">
+                    <a href="#">MI CARRITO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main> 
+        <div class="card">
+            <h2>Iphone 15</h2>
+            <img src="/imagenes/iphone 15.jpg"><br>
+            <h3 class="price">$1500</h3>
+            <input class="buy" type="submit" value="Comprar">
+            <input onclick="alquilar()" class="cart" type="submit" value="Agregar a carrito">
+        </div>
+        <div class="card">
+            <h2>Iphone 14</h2>
+            <img src="/imagenes/iphone 14.jpeg">
+            <p class="desc"></p>
+            <h3 class="price">$1400</h3>
+            <input class="buy" type="submit" value="Comprar">
+            <input onclick="alquilar()" class="cart" type="submit" value="Agregar a carrito">
+        </div>
+        <div class="card">
+            <h2>Iphone X</h2>
+            <img src="/imagenes/iphone x.jpeg"><br>
+            <h3 class="price">$720</h3>
+            <input class="buy" type="submit" value="Comprar">
+            <input onclick="alquilar()" class="cart" type="submit" value="Agregar a carrito">
+        </div>
+        <div class="card" id="card-4">
+            <h2>Iphone 13</h2>
+            <img src="/imagenes/iphone_13.webp"><br>
+            <h3 class="price">$1220</h3>
+            <input class="buy" type="submit" value="Comprar">
+            <input onclick="alquilar()" class="cart" type="submit" value="Agregar a carrito">
+        </div>
+        <div class="card" id="card-4">
+            <h2>Iphone 11 Pro Max </h2>
+            <img src="/imagenes/apple-iphone-11-pro-max-64gb.jpeg"><br>
+            <h3 class="price">$1000</h3>
+            <input class="buy" type="submit" value="Comprar">
+            <input onclick="alquilar()" class="cart" type="submit" value="Agregar a carrito">
+        </div>
+        <div class="card" id="card-4">
+            <h2>Iphone XS</h2>
+            <img src="/imagenes/XS.webp"><br>
+            <h3 class="price">$550</h3>
+            <input class="buy" type="submit" value="Comprar">
+            <input onclick="alquilar()" class="cart" type="submit" value="Agregar a carrito">
+        </div>
+        <div class="card" id="card-4">
+            <h2>Iphone XR</h2>
+            <img src="/imagenes/XR.jpg"><br>
+            <h3 class="price">$600</h3>
+            <input class="buy" type="submit" value="Comprar">
+            <input onclick="alquilar()" class="cart" type="submit" value="Agregar a carrito">
+        </div>
+        <div class="card" id="card-4">
+            <h2>Iphone 12</h2>
+            <img src="./imagenes/iphone 12.webp"><br>
+            <h3 class="price">$1120</h3>
+            <input class="buy" type="submit" value="Comprar">
+            <input onclick="alquilar()" class="cart" type="submit" value="Agregar a carrito">
+        </div>
+        <div class="card">
+            <h2>Notebook samsung book 3</h2>
+            <img src="./imagenes/samsung-book-33.jpg"><br>
+            <h3 class="price">$864</h3>
+            <input class="buy" type="submit" value="Comprar">
+            <input onclick="alquilar()" class="cart" type="submit" value="Agregar a carrito">
+        </div>
+        <div class="card">
+            <h2>Samsung Galaxy Tab S9 FE</h2>
+            <img src="./imagenes/galaxy-tab-s9-fe-5.webp">
+            <p class="desc"></p>
+            <h3 class="price">$1500</h3>
+            <input class="buy" type="submit" value="Comprar">
+            <input onclick="alquilar()" class="cart" type="submit" value="Agregar a carrito">
+        </div>
+        <div class="card" id="card-4">
+            <h2>Samsung Galaxy S24 Ultra</h2>
+            <img src="./imagenes/s24.webp"><br>
+            <h3 class="price">$1620</h3>
+            <input class="buy" type="submit" value="Comprar">
+            <input onclick="alquilar()" class="cart" type="submit" value="Agregar a carrito">
+        </div>
+        <div class="card" id="card-4">
+            <h2>Samsung Galaxy S23 Ultra</h2>
+            <img src="./imagenes/s23.jpg"><br>
+            <h3 class="price">$1500</h3>
+            <input class="buy" type="submit" value="Comprar">
+            <input onclick="alquilar()" class="cart" type="submit" value="Agregar a carrito">
+        </div>
+        <div class="card" id="card-4">
+            <h2>Galaxy Watch5 Pro </h2>
+            <img src="./imagenes/improved_sensor_accuracy_FEATUREBENEFIT-2COLUMN.webp"><br>
+            <h3 class="price">$557</h3>
+            <input class="buy" type="submit" value="Comprar">
+            <input onclick="alquilar()" class="cart" type="submit" value="Agregar a carrito">
+        </div>
+        <div class="card" id="card-4">
+            <h2>Galaxy A53 5G</h2>
+            <img src="./imagenes/a53.avif"><br>
+            <h3 class="price">$350</h3>
+            <input class="buy" type="submit" value="Comprar">
+            <input onclick="alquilar()" class="cart" type="submit" value="Agregar a carrito">
+        </div>
+        <div class="card" id="card-4">
+            <h2>Galaxy A23 5G</h2>
+            <img src="./imagenes/a23.avif"><br>
+            <h3 class="price">$580</h3>
+            <input class="buy" type="submit" value="Comprar">
+            <input onclick="alquilar()" class="cart" type="submit" value="Agregar a carrito">
+        </div>
+        <div class="card" id="card-4">
+            <h2> Galaxy A34 5G </h2>
+            <img src="./imagenes/a34.png"><br>
+            <h3 class="price">$420</h3>
+            <input class="buy" type="submit" value="Comprar">
+            <input onclick="alquilar()" class="cart" type="submit" value="Agregar a carrito">
+        </div>
+    </main>
+    <script src="/main.js"></script>
+</body>
+
+</html>

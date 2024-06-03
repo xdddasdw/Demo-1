@@ -1,0 +1,72 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/6a/6c/ad/6a6cadcc8dc36f6f3e98fcdedad1a6ee.jpg);
+    background-size:100%;
+    font-family: "Outfit", sans-serif;
+}
+div{
+    margin: 150px auto 0 auto;          
+    width: 30%;
+    display: flex;                      
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;                 
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 2px 0px;
+    color: black; 
+    background-color: #eff4f8cb;
+    border:#465375 solid 2px;
+    border-radius: 5%;
+}
+
+h1{
+    color: #465375;
+}
+
+input{
+    padding-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Outfit", sans-serif;
+}
+
+#login-button{
+    text-align: center;
+    background-color: #56668fa4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: #4653757c;
+    width: 20%;                             
+}
+
+p{
+    font-size: smaller;
+    font-family: "Outfit", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #626da3;
+    font-family: "Outfit", sans-serif;
+}
+
+@media(width <= 1000px)
+{
+    div{                                   
+        width: 50%;
+    }
+}
+
+@media(width <= 700px)
+{
+    div{
+        width: 70%;
+    }
+}
+
+@media (width <= 450px)
+{
+    div{                                    
+        width: 90%;
+        margin-top: 100px;
+    }
+}
